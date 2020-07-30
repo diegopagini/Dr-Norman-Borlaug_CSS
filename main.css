@@ -1,0 +1,62 @@
+html {
+  font-family: 'Roboto', sans-serif;
+  font-size: 10px;
+}
+:root {
+  --color-1: #ffffff;
+  --color-2: #d8d8d8;
+}
+body {
+  background-color: var(--color-1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  width: 92vw;
+}
+#main {
+  background-color: var(--color-2);
+  width: 100%;
+  border-radius: 1em;
+}
+#title {
+  font-size: 3.5em;
+}
+#subtitle {
+  font-size: 1.5em;
+}
+#img-div {
+  background-color: var(--color-1);
+  margin: 2em;
+  border-radius: 1em;
+}
+#image img{
+  max-width: 85%;
+}
+#img-caption {
+  font-size: 1.1em;
+  margin: 1em 4em 1em 4em;
+  padding-bottom: 1.5em;
+}
+#tribute-info div {
+  font-size: 1.4em;
+}
+#tribute-info ul {
+   padding-left: 15em;
+   padding-right: 15em;
+   text-align: initial;
+   line-height: 1.7em;
+}
+#tribute-info li {
+  margin-top: 5px;
+}
+#tribute-info p {
+  padding-right: 10em;
+  padding-left: 10em;
+  line-height: 1.5em;
+}
+#link-text {
+  margin-bottom: 2em;
+  font-size: 1.2em;
+}

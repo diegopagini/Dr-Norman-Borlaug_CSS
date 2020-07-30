@@ -1,0 +1,14 @@
+@media screen and (max-width: 425px) {
+    #tribute-info ul {
+        padding-left: 5em;
+        padding-right: 5em;
+        }
+    #tribute-info p {
+        padding-right: 5em;
+        padding-left: 5em;
+        }
+    #link-text {
+        padding-right: 2em;
+        padding-left: 2em;
+    }
+}
